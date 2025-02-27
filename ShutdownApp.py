@@ -18,23 +18,23 @@ def logout():
     os.system("shutdown /l")
 
 
-image_restart=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\restart time.png")
+image_restart=PhotoImage(file="restart time.png")
 btn1=Button(root,image=image_restart,borderwidth=0,cursor="hand2",command=restarttime)
 btn1.place(x=10,y=10)
 
-image_close=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\close (1).png")
+image_close=PhotoImage(file="close (1).png")
 btn2=Button(root,image=image_close,borderwidth=0,cursor="hand2",command=root.destroy)
 btn2.place(x=200,y=10)
 
-image_rest=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\restart.png",)
+image_rest=PhotoImage(file="restart.png",)
 btn3=Button(root,image=image_rest,borderwidth=0,cursor="hand2",command=restart)
 btn3.place(x=10,y=200)
 
-image_shutdown=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\shutdown.png")
+image_shutdown=PhotoImage(file="shutdown.png")
 btn4=Button(root,image=image_shutdown,borderwidth=0,cursor="hand2",command=shutdown)
 btn4.place(x=200,y=200)
 
-image_logout=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\log out.png")
+image_logout=PhotoImage(file="log out.png")
 btn5=Button(root,image=image_logout,borderwidth=0,cursor="hand2",command=logout)
 btn5.place(x=10,y=400)
 
